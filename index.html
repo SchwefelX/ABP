@@ -1,6 +1,410 @@
 <!DOCTYPE html>
 <html>
 
-<img src="https://www.dropbox.com/s/26lxlgse455tqs0/smth%20inspiring.jpg?dl=1">
+<head>
+    <title>Accio Brothers Pictures</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-color: #F5DEB3;
+        }
+        
+        h1 {
+            font-size: 48px;
+        }
+        
+        .rectangle-img {
+            border-radius: 30px;
+            width: 550px;
+        }
+        
+        .square-image {
+            border-radius: 30px;
+        }
+        
+        .collapsible {
+            background-color: #e0ad4f;
+            color: #fff;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            border-radius: 30px;
+            border: 10px solid #ffd651;
+        }
+        
+        .active,
+        .collapsible:hover {
+            background-color: #bb9652;
+        }
+        
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #e0bb74;
+            margin: 0;
+            border-radius: 30px;
+        }
+        
+        .halbkreis {
+            background-color: rgb(255, 209, 59);
+            border-radius: 0 0 100px 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+            z-index: 1;
+            transform: scale(1.5);
+        }
+        
+        .halbkreis1 {
+            width: 950px;
+            height: 220px;
+            left: 0;
+            background-color: #ffd54b;
+            z-index: 0;
+        }
+        
+        .halbkreis2 {
+            width: 500px;
+            height: 140px;
+            left: 50%;
+            margin: auto 0;
+            background-color: #ffcc41;
+            z-index: 0;
+            margin-top: 0px;
+        }
+        
+        .halbkreis3 {
+            width: 550px;
+            height: 150px;
+            right: 0;
+            background-color: #ffd13b;
+            z-index: 0;
+            margin: auto 0;
+        }
+        
+        .halbkreis4 {
+            width: 750px;
+            height: 100px;
+            right: 0px;
+            background-color: #ffc546;
+            z-index: 0;
+            margin: auto 0;
+        }
+        
+        .title {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 75px;
+            font-weight: bold;
+            color: #333;
+            z-index: 2;
+            font-family: Impact, sans-serif;
+            white-space: nowrap;
+        }
+        
+        .text {
+            position: relative;
+            margin: 350px auto 0;
+            width: 80%;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            line-height: 1.5;
+            color: #333;
+        }
+        
+        .text h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 0px;
+        }
+        
+        .yellow-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffdc7a;
+            color: black;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .yellow-button:hover {
+            background-color: #ffcc00;
+        }
+        
+        .goodbye-box {
+            background-color: darkgoldenrod;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 30px;
+            margin: 0;
+        }
+        
+        .balken {
+            width: 500px;
+            height: 15px;
+            background-color: #D4AF37;
+            margin: 0 auto;
+        }
+        
+        img {
+            width: 300px;
+            height: 300px;
+            border: 20px solid #ffd651;
+        }
+        
+        #countdown-timer {
+            font-weight: bold;
+            color: white;
+            font-size: 48px;
+            text-align: center;
+        }
+        
+        #countdown-timer span {
+            display: inline-block;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="halbkreis halbkreis1"> </div>
+    <div class="halbkreis halbkreis2"> </div>
+    <div class="halbkreis halbkreis3"> </div>
+    <div class="halbkreis halbkreis4"> </div>
+    <div class="title">Accio Brothers Pictures</div>
+    <div class="text">
+        <br><br>
+        <img src="https://www.dropbox.com/s/y1a6ofb2fka6j6k/Accio_logo.png?dl=1">
+        <br><br><br><br><br>
+        <style>
+            img {
+                border-radius: 50%;
+            }
+        </style>
+        <br><br>
+        <h1>Willkommen auf unserer Website!</h1>
+        <p>Wir freuen uns, das du uns besuchst.
+            <p>
+                <br><br>
+                <h1 class="collapsible">Über uns:<span class="arrow-down"></span></h1>
+                <div class="content">
+                    <h3>Wer sind wir überhaupt?</h3>
+                    <p>Accio Brothers Pictures wurde 2016 von einer Gruppebegeisterter Filmemacher gegründet, die ihre Leidenschaft mit anderen teilenwollten. Accio Brothers Pictures ist eineFilm beziehungsweise Videoproduktion . Wir halten Siedurch diese
+                        Website immer auf dem neuesten Standwas die Produktion unserer Filmprojekte angeht.Wir wünschen Ihnen viel Spaß hier, ihr Accio Team!<br><br>
+                        <a href="https://youtube.com/@acciobrotherspictures" class="yellow-button">ABPYoutube</a>&nbsp;&nbsp;<a href="https://youtube.com/@wivid_" class="yellow-button">wivid_</a>&nbsp;&nbsp;<a href="https://discord.gg/jSkWXJxQ" class="yellow-button">Discord</a>
+                        <br><br>
+                        <div class="balken"></div>
+                        <h2>Mitglieder</h2>
+                        <h3>Gabriel Mahlert</h3>
+                        <img src="https://www.dropbox.com/s/chcqd9zqt7b1mf2/DALL%C2%B7E%202023-02-14%2011.15.27%20-%20Surprise%20me.png?dl=1"><br>
+                        <p>Gabriel Mahlert ist ein aktives Mitglied und hat Rollen in allen Filmen. Zum Beispielin PW, Nature Mystery, Mord und Totscchlag und unserem neuen Projekt, Take Me Home.Er hat außerdem die meisten Filme geschnitten oder mitgeschnitten
+                            und wird das in Zukunftwahrscheinlich auch noch tun.</p>
+                        <br>
+                        <h3>Moritz Koch</h3>
+                        <img src="https://www.dropbox.com/s/chcqd9zqt7b1mf2/DALL%C2%B7E%202023-02-14%2011.15.27%20-%20Surprise%20me.png?dl=1"><br>
+                        <p>Moritz Koch hat ebenfalls in sämtlichen Filmen mitgespielt und schneidet auch diemeisten Filme. Er ist einer der Hauptorganisatoren von Accio Brothers Pictures und ein sehraktives Mitglied.</p>
+                        <br>
+                        <h3>Anna Koch</h3>
+                        <img src="https://www.dropbox.com/s/chcqd9zqt7b1mf2/DALL%C2%B7E%202023-02-14%2011.15.27%20-%20Surprise%20me.png?dl=1"><br>
+                        <p>Anna Koch ist ebenfalls sehr engagiert in der Organisation, vor allem in unseremFilm "Take me Home". Sie hat zum Beispiel die Haupt Requisite, auch bekannt als das bunteTotem aus Ton hergestellt. Sie hat auch Rollen in PW, Nature
+                            Mystery und Take meHome.</p>
+                        <br>
+                        <h3>Pauline Dönges</h3>
+                        <img src="https://www.dropbox.com/s/chcqd9zqt7b1mf2/DALL%C2%B7E%202023-02-14%2011.15.27%20-%20Surprise%20me.png?dl=1"><br>
+                        <p>Pauline Dönges hat Rollen in PW, Nature Mystery und Take me Home, sowie inMord uns Totschlag. Sie hilft bei der Organisation, vor allem bei unserem neuesten Projekt,indem sie manchmal mit am Drehbuch arbeitet, Requisiten besorgt
+                            oder Vorschläge für Setsbeiträgt.</p>
+                        <br>
+                        <h3>Felix Oppermann</h3>
+                        <img src="https://www.dropbox.com/s/chcqd9zqt7b1mf2/DALL%C2%B7E%202023-02-14%2011.15.27%20-%20Surprise%20me.png?dl=1"><br>
+                        <p>Felix Oppermann hat Rollen in PW, Nature Mystery, Mord und Totschlag. Er hilft beider Organisation mancher Filme mit und hat im Übrigen auch diese Website erstellt.</p>
+                        <br><br>
+                        <h3>Johannes Posch</h3>
+                        <img src="https://www.dropbox.com/s/chcqd9zqt7b1mf2/DALL%C2%B7E%202023-02-14%2011.15.27%20-%20Surprise%20me.png?dl=1"><br>
+                        <p>Johannes Posch ist eine treibende Kraft bei Letˋs build Accio Room und anderenProjekten. Sein erster Auftritt auf der Leinwand wird in "Take me Home" sein. Er hilft demAccio Team unter anderem auch bei diversen technischen und
+                            elektronishen Aufgaben.
+                        </p>
+                        <br>
+                        <h3>Benjamin Jordan</h3>
+                        <img src="https://www.dropbox.com/s/chcqd9zqt7b1mf2/DALL%C2%B7E%202023-02-14%2011.15.27%20-%20Surprise%20me.png?dl=1"><br>
+                        <p>Benjamin Jordan, besser bekannt als Benni, wird ebenfalls seinen erstenLeinwandauftritt in "Take me Home haben" und wird in 24h im Accio Room mitwirken.</p>
+                        <br>
+                        <h3>Emma Koch</h3>
+                        <img src="https://www.dropbox.com/s/chcqd9zqt7b1mf2/DALL%C2%B7E%202023-02-14%2011.15.27%20-%20Surprise%20me.png?dl=1"><br>
+                        <p>Emma Koch belegt Rollen in PW, Streamers for Wild und "Take meHome".</p>
+                        <br><br>
+                </div>
+                <br>
+                <h1 class="collapsible">Aktuelle Projekte:</h1>
+                <div class="content">
+                    <h3>Take me Home</h3>
+                    <p>In dem Kinofilm "Take me Home" geht es um Sam, welcher bis zu seinem ungefähr 15.Lebensjahr in einem Kinderheim im wilden Westen lebte. Eines Tages flieht er und zieht los,um seine Eltern zu finden. Auf seinem Weg trifft er Tommy,
+                        welcher ihm auf seinen Abenteuern hilft. Dieser weist ihn auf fantastische Art und Weise in die Welt der Cowboysund Indianer ein. Zusammen erfahren sie die Macht eines mystischen Totems, welches dasSchicksals Sams verherend verändern
+                        wird. Zusammen erleben sie einige tolle undspannende Sachen, aber mehr können wir euch hier nicht verraten...</p>
+                    <a href="https://www.dropbox.com/s/ngobgqakcsgdzzx/Kinofilm_Projekt-_Take_me_home.pdf?dl=0" class="yellow-button">Drehbuch</a>
+                    <br><br><br>
+                    <h3>Accio Podcast</h3>
+                    <p>Das Projekt "Accio Podcast" ist ein Podcast, in dem wir über die neuesten Projekte und Sonstiges reden. Zu finden sind alle Folgen auf dem Kanal "wivid_"</p>
+                    <br>
+                </div>
+                <br>
+
+                <h1 class="collapsible">Accio Merch:</h1>
+                <div class="content">
+                    <h3>Accio Hoodie</h3>
+                    <img src="https://www.dropbox.com/s/79f38909uelpp25/a46d9207-ffb7-45c5-941e-27f8c13f6735_preview-png_600x600.webp?dl=1">&nbsp;&nbsp;<img src="https://www.dropbox.com/s/4j6e0wgwzdqlhmt/Accio_Hoodiw_hinten.png?dl=1"><br>
+                    <p>Der neue Accio Hoodie ist ein modisches Kleidungsstück, auf das man sich seinen eigenen Namen drucken lassen kann. Er ist ideal zum normalen Alltag oder auch in dere Schule. Er ist flauschig und besteht zu 80 Prozent aus gut verarbeiteter
+                        Baumwolle und zu 20 Prozent aus Polyester. Mehr dazu erfährst du in folgendem Video.</p>
+                    <br>
+                    <a href="https://youtu.be/JlSVEOhw0zw" class="yellow-button">Accio Hoodie</a>
+                    <br><br><br>
+                    <h3>Accio Tasche</h3>
+                    <img src="https://www.dropbox.com/s/ytn13vi0v913rgi/Screenshot%202023-02-25%20214304.png?dl=1"><br>
+                    <p>Die stylische Accio Tasche ist leider nicht mehr verfügbar. Sie ist jedoch eine hochwertige und visuell ansprechende Tasche, die man einfach haben muss. Vielleicht gibt es ja bald eine neue Auflage...</p>
+                    <br>
+                    <a href="https://youtu.be/o1umI1yFHkE" class="yellow-button">Accio Tasche</a>
+                    <br><br>
+                </div>
+                <br>
+                <h1 class="collapsible">Accio History:</h1>
+                <div class="content">
+                    <h2>Komm mit auf eine Reise und erforsche den Ursprung und die Geschichte von unerem Unternehmen.</h2>
+                    <br>
+
+                    <h2>2018</h2>
+                    <img src="https://www.dropbox.com/s/7270ev3dxf817ba/Januar.png?dl=1" class="rectangle-img"><br>
+                    <p>Dies ist das Gründungsjahr von Accio Brothers Pictures. Und es begann alles mit PW 1. Dies eine Harry Potter Fanfiction die von den Kindern des goldenen Trios handelt und wie diese gegen den adoptiv Sohn von Albus Dumbledore und Gellert
+                        Grindelwald, George Grindelwald kämpfen. Dieser Film ist aufgrund unserer mangelnden Erfahrung nicht gerade gut. Er hatte kein Drehbuch und wir haben einfach auf alles, was uns gerade einfiel die Kamera, die die Qualität einer
+                        Kartoffel hatte, gehalten. So entstanden aber auch ein Paar sehr lustige memes.</p>
+                    <br><br><br>
+
+                    <h2>2019</h2>
+                    <br>
+                    <p>Im Jahre 2019 drehten wir unseren ersten richtigen Film, der auch ein einigermaßen gutes Drehbuch hatte. Es war die Fortsetzung von PW 1, PW 2. In diesem Film spielten Anna, Gabriel, Moritz, Pauline, Justus und Emma did Hauptrollen.
+                        Felix spielte schon in PW 1 eine kleine Rolle doch in diesem Film ist er nicht zu sehen. PW 2 war am Faschingsdienstag in der Grundschule Langenstein als Premiere zusehen.</p>
+                    <br><br><br>
+
+                    <h2>2020</h2>
+                    <img src="https://www.dropbox.com/s/tjqlwdecygxuect/Juli..png?dl=1" class="rectangle-img">&nbsp;&nbsp;<img src="https://www.dropbox.com/s/ngaain61idzbjus/April.png?dl=1" class="rectangle-img"><br>
+                    <p>Im Jahre 2020 wurden die Filme Movie Detektivs und Natur Mystery gedreht. In Film Movie Detectives geht es um zwei Freunde, Moritz und Gabriel welche an versuchen in einem Filmwettbewerb den ersten Platz zu gewinnen. Dich die Konkurenz
+                        macht es ihnen nicht leichter, denn sie arbeiten mit unfairen Mitteln. Ob die beiden es trotzdem schaffen zu gewinnen seht ihr, wenn ihr euch den Film anschaut. In unserem 2. Filmprojekt aus dem Jahre 2020, das von Jumanji inspiriert
+                        wurde geht es um 3 Freunde(Gabriel, Pauline, Moritz) die sich zum videospielen verabreden doch auf mysteriöse Art und Weise in das Spiel hinein gesaugt werden. Dort müssen sie sich gefährlichen Aufgaben stellen und treffen auf
+                        einen verdächtigen NPC(Felix) , der es geschafft hat eine eigene Intiligenz zu erschaffen und nun alles Versucht um aus dem Spiel zu entkommen. Leider konnte dieses Projekt nie vollendet werden, da wir zu wenig Zeit zum Drehen
+                        hatten und es kälter wurde. (Bearbeitet) [13:28]
+                    </p>
+                    <br><br><br>
+
+                    <h2>2021</h2>
+                    <img src="https://www.dropbox.com/s/ljl6oenbhnup38m/September..png?dl=1" class="rectangle-img"><br>
+                    <p>Im Jahre 2021 kahm unsere is Auflage des Accio Merch raus: Die PW Tasche und das Accio Shirt. Außerdem drehten wir unseren ersten sehr hochwertigen Film: "The lost Childeren" In diesem Film geht es um die morderne Hexenverfolgung im
+                        Jahre 2021 in der Wizarding World. Die Muggel wollen wieder an die Herrschaft und zünden Wohnsiedlungen von Zauberer an. So müssen auch 4 junge Hexen und Zauberer fliehen, doch sie werden verfolgt. Lieder konnte der Film nicht
+                        volledet werden, da manche Accio Team Mitglieder wenig Zeit hatten.</p>
+                    <br><br><br>
+
+                    <h2>2022</h2>
+                    <img src="https://www.dropbox.com/s/mz5lddwuia3yniy/November.png?dl=1" class="rectangle-img"><br>
+                    <p>Das Jahr 2022 war wohl das erfolgreichste Jahr für Accio Brothers Pictures. Das Jahr startete mit dem Filmprojekt "Streamers for Wild", indem es um eingebildete Influencer geht, die in die Wildnis ausgesetzt werden und erkennen müssen
+                        worum es wirklich geht, nicht klicks und likes sondern wahre Freundschaft. Dieser Film hat sehr viel Spaß gemacht zu drehen, da wir alle in völlig verschiedenen Rollen schlüpfen durften. Doch auch dieser Film wurde leider nie fertig
+                        gedreht. Doch davon ließen wir uns nicht unterkriegen und schrieben ein paar Monate später ein neues Drehbuch für ein Halloween Filmprojekt: "Mord und Totschlag" Dieser Film ist ein interaktives Video, bei dem du herausfinden musst
+                        wer Pauline ermordet hat. Dieser Film wurde tatsächlich fertig gedreht. Man kann ihn sich auf dem Accio Brothers Pictures YouTube Kanal ansehen. Im Herbst starteten wir mit dem Projekt Lets built Accio Room, indem wir uns unseren
+                        eigenen Brainstorming und Aufnahme raum einrichten. Alle Folgen sind auf YouTube zu sehen. Das Jahr beendeten wir mit einem kleien aber feinen Weihnachtsspecial, in dem es ums teilen und Wertsachen geht.</p>
+                    <br><br><br>
+
+                    <h2>2023</h2>
+                    <img src="https://www.dropbox.com/s/26lxlgse455tqs0/smth%20inspiring.jpg?dl=1" class="rectangle-img"><br>
+                    <p>Nun sind wir auch schon in Jahre 2023 angekommen. In diesem Jahr fing der Accio Podcast richtig an, von dem jedem Monat eine neue Folge auf dem wivid_ Kanal. Auch in diesem Jahr werden wir ein neues Filmprojekt drehen: "Take me home"
+                        Das Drehbuch und die meisten Requisiten sind fertig. In diesem Film geht es um Sam, der im Kinderheim aufgewachsen ist und eines Tages flieht und auf Tommy, einen Straßenmusiker trifft. Dieser weist ihn auf fantastische Art und
+                        Weise in die Welt der Cowboys und Indianer ein. Sie erfahrne sie Macht eines magischn Totems, dass einem alten Indianer Stammes gehört. Im Mai fangen wir an den Film zu drehen und Gabriel und Moritz werden diesen schneiden. Wenn
+                        der Film fertig ist, wird er im Cineplex Marburg auf der großen Leinwand zu sehen sein.</p>
+                    <br><br><br>
+
+                </div>
+                <br>
+                <h1 class="collapsible">Tolle Timer:</h1>
+                <div class="content">
+                    <br>
+                    <h1>Ferien Timer:</h1>
+                    <div id="countdown-timer">
+                        <span id="days">00</span>:
+                        <span id="hours">00</span>:
+                        <span id="minutes">00</span>:
+                        <span id="seconds">00</span>
+                    </div>
+                    <br><br>
+                </div>
+                <br>
+
+                <br> <br>
+                <div class="goodbye-box">
+                    <br>
+                    <h1>Das Meme der Woche:</h1>
+                    <br><br>
+                    <img src="https://www.dropbox.com/s/1ceutc6coukcnte/Mematic_20230228_095758.jpg?dl=1" class="square-image">
+                    <p></p>
+
+                    <body>
+                        <script>
+                            var coll = document.getElementsByClassName("collapsible");
+                            var i;
+
+                            for (i = 0; i < coll.length; i++) {
+                                coll[i].addEventListener("click", function() {
+                                    this.classList.toggle("active");
+                                    var content = this.nextElementSibling;
+                                    if (content.style.display === "block") {
+                                        content.style.display = "none";
+                                    } else {
+                                        content.style.display = "block";
+                                    }
+                                });
+                            }
+
+                            // Set the date you're counting down to
+                            var countDownDate = new Date("Apr 11, 2023 10:00:00").getTime();
+
+                            // Update the count down every 1 second
+                            var x = setInterval(function() {
+
+                                // Get today's date and time
+                                var now = new Date().getTime();
+
+                                // Find the distance between now and the count down date
+                                var distance = countDownDate - now;
+
+                                // Calculate days, hours, minutes and seconds
+                                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                                // Display the result in the element with id="countdown-timer"
+                                document.getElementById("days").innerHTML = days;
+                                document.getElementById("hours").innerHTML = hours;
+                                document.getElementById("minutes").innerHTML = minutes;
+                                document.getElementById("seconds").innerHTML = seconds;
+
+                                // If the count down is finished, write some text
+                                if (distance < 0) {
+                                    clearInterval(x);
+                                    document.getElementById("countdown-timer").innerHTML = "EXPIRED";
+                                }
+                            }, 1000);
+                        </script>
+                    </body>
 
 </html>
